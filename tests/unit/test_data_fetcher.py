@@ -3,7 +3,7 @@ from unittest.mock import patch, Mock
 import os
 import requests
 import pandas as pd
-from src.pipeline.data_fetcher import DataFetcher
+from zillowAPI.data_fetcher import DataFetcher
 
 
 @pytest.fixture

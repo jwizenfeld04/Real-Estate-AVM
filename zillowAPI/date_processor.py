@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from typing import Dict, Any, Union, List
 import pandas as pd
 import ast
-from src.utils import *
+from zillowAPI.utils import *
 
 logger = setup_logger()
 

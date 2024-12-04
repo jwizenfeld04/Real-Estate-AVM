@@ -1,7 +1,7 @@
 import os
 import pytest
 from dotenv import load_dotenv
-from src.pipeline.data_fetcher import DataFetcher
+from zillowAPI.data_fetcher import DataFetcher
 
 load_dotenv()
 

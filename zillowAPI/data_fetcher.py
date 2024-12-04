@@ -2,7 +2,7 @@ import tqdm
 import requests
 import pandas as pd
 from typing import List, Dict, Any, Optional
-from src.utils import setup_logger
+from zillowAPI.utils import setup_logger
 
 logger = setup_logger()
 
